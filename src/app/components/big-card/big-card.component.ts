@@ -16,5 +16,11 @@ export class BigCardComponent {
   author: string = ""
   @Input()
   date: string = ""
+  @Input()
+  url: string = ""
+
+  abrir() {
+    window.open(this.url, '_blank');
+  }
 
 }

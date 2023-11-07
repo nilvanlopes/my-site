@@ -1,15 +1,21 @@
-.articles {
+.articles
+{
     display: flex;
     gap: 20px;
     height: 500px;
     margin-top: 20px;
 }
 
-.main-article {
+.main-article
+{
+    display: flex;
+    flex-direction: column;
     height: 100%;
+    gap: 30px;
 }
 
-.others-article {
+.others-article
+{
     display: flex;
     flex-direction: column;
     justify-content: space-between;

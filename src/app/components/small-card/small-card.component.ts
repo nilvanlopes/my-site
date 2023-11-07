@@ -7,5 +7,4 @@ import { BigCardComponent } from '../big-card/big-card.component';
   styleUrls: ['./small-card.component.css']
 })
 export class SmallCardComponent extends BigCardComponent {
-
 }
